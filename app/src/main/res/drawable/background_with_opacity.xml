@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/image2" /> <!-- Substitua "your_image" pelo nome da sua imagem -->
+    <item>
+        <color android:color="#16000000" /> <!-- Defina a cor de fundo com opacidade de 10% (26 em alfa) -->
+    </item>
+</layer-list>

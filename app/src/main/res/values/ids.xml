@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="container" type="id" />
+    <item name="errorTextView" type="id" />
+    <item name="usernameEditText" type="id" />
+    <item name="passwordEditText" type="id" />
+    <item name="novoUsuarioButton" type="id" />
+    <item name="cnpjCpfEditText" type="id" />
+    <item name="razaoSocialEditText" type="id" />
+    <item name="enderecoEditText" type="id" />
+    <item name="nomeEditText" type="id" />
+    <item name="telefoneEditText" type="id" />
+    <item name="emailEditText" type="id" />
+    <item name="passwordToggleIcon" type="id" />
+</resources>
