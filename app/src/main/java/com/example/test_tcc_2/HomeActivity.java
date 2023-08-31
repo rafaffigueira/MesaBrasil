@@ -19,6 +19,6 @@ public class HomeActivity extends AppCompatActivity {
         Button cadastroRotasButton = findViewById(R.id.cadastroRotasButton);
         Button coletasFinalizadasButton = findViewById(R.id.coletasFinalizadasButton);
 
-        // Configurar os listeners dos botões aqui OK
+        // Configurar os listeners dos botões aqui OK ww
     }
 }
