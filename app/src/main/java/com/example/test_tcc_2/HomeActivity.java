@@ -25,6 +25,6 @@ public class HomeActivity extends AppCompatActivity {
         numeroInstituicoesTextView.setText(String.valueOf(numeroInstituicoesAtendidas));
 
 
-        // Configurar os listeners dos botões aqui OK
+        // Configurar os listeners dos botões aqui OK1
     }
 }
