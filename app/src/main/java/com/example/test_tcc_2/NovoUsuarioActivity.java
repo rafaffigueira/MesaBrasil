@@ -86,21 +86,26 @@ public class NovoUsuarioActivity extends AppCompatActivity {
             cpfCnpjEditText.setVisibility(View.VISIBLE);
             telefoneEditText.setVisibility(View.VISIBLE);
             emailEditText.setVisibility(View.VISIBLE);
-
-            // Esconder campos de Instituição e Motorista
-            enderecoEditText.setVisibility(View.GONE);
-            numeroEditText.setVisibility(View.GONE);
-            cepEditText.setVisibility(View.GONE);
-            cidadeEditText.setVisibility(View.GONE);
-        } else if (selectedOption.equals("Mesa Brasil")) {
-            // Mostrar campos específicos para Instituição
-            cpfCnpjEditText.setVisibility(View.VISIBLE);
             enderecoEditText.setVisibility(View.VISIBLE);
             numeroEditText.setVisibility(View.VISIBLE);
             cepEditText.setVisibility(View.VISIBLE);
             cidadeEditText.setVisibility(View.VISIBLE);
+
+            // Esconder campos de Instituição e Motorista
+
+        } else if (selectedOption.equals("Mesa Brasil")) {
+            // Mostrar campos específicos para Instituição
+            cpfCnpjEditText.setVisibility(View.VISIBLE);
             telefoneEditText.setVisibility(View.VISIBLE);
             emailEditText.setVisibility(View.VISIBLE);
+
+            // Esconder campos de Mesa Brasil e Instituição
+            enderecoEditText.setVisibility(View.GONE);
+            numeroEditText.setVisibility(View.GONE);
+            cepEditText.setVisibility(View.GONE);
+            cidadeEditText.setVisibility(View.GONE);
+            emailEditText.setVisibility(View.GONE);
+
         } else if (selectedOption.equals("Motorista")) {
             // Mostrar campos específicos para Motorista
             telefoneEditText.setVisibility(View.VISIBLE);

@@ -33,7 +33,7 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity android:name=".RecuperarSenhaActivity" />
-
+        <activity android:name=".ConfiguracaoActivity" />
     </application>
 
 </manifest>
