@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#A8A8A8"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_toEndOf="@+id/toolbarMenu"
+            android:text="Cadastro de Rotas"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/toolbarMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_toolbar_menu" />
+
+        <ImageView
+            android:id="@+id/notificacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="54dp"
+            android:layout_toEndOf="@+id/titulo"
+            android:src="@drawable/ic_toolbar_notificacao" />
+
+        <ImageView
+            android:id="@+id/tresPontinhos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="54dp"
+            android:layout_toEndOf="@+id/notificacao"
+            android:src="@drawable/ic_toolbar_3pontinhos" />
+
+</RelativeLayout>
